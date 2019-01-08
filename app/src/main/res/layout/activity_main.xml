@@ -14,8 +14,7 @@
         android:text="Top Customer"
         android:textColor="#fff"
         android:background="#F18431"
-        android:textSize="16.0sp"
-        />
+        android:textSize="16.0sp"        />
 
     <Button
         android:id="@+id/btnTopOperater"
@@ -26,8 +25,7 @@
         android:text="Top Operater"
         android:textColor="#fff"
         android:background="#F18431"
-        android:textSize="16.0sp"
-        />
+        android:textSize="16.0sp"        />
 
     <Button
         android:id="@+id/btnAddNewParking"
@@ -38,8 +36,7 @@
         android:text="NEW PARKING"
         android:textColor="#fff"
         android:background="#F18431"
-        android:textSize="16.0sp"
-        />
+        android:textSize="16.0sp"        />
 
     <Button
         android:id="@+id/btnEndParking"
@@ -50,6 +47,5 @@
         android:text="END PARKING"
         android:textColor="#fff"
         android:background="#F18431"
-        android:textSize="16.0sp"
-        />
+        android:textSize="16.0sp"        />
 </RelativeLayout>
