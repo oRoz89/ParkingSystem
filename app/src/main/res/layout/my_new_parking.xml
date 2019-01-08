@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="180dp"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="NEW PARKING"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutKomitentiKomitentFilter"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#F18431"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <EditText
+            android:id="@+id/txtCustomer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer name"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="#F18431"
+            android:maxLines="1"
+            android:textSize="14sp"    />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="SUMBIT"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="CANCEL"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="180dp"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="END PARKING"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="25dp"
+         android:layout_marginTop="35dp"
+         android:text="Customer: "
+         android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="Enter Time: "
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="Price: "
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Priceeee"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="120dp"/>
+
+    <TextView
+        android:id="@+id/enter_time"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Entertimeee"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="120dp"/>
+
+    <TextView
+        android:id="@+id/customer"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Customerrr"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="120dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:layout_marginTop="125dp">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:background="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="SUMBIT"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:background="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="CANCEL"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
